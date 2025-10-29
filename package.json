@@ -1,0 +1,27 @@
+{
+  "name": "linkedout-v2",
+  "version": "1.0.0",
+  "description": "Modern Next.js 15 job portal for job seekers",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0",
+    "vitest": "^0.36.0",
+    "playwright": "^1.40.0"
+  }
+}
